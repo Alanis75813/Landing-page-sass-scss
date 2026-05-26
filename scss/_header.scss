@@ -1,0 +1,21 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.header {
+  background: $primary;
+  padding: $spacing;
+  color: white;
+
+  .nav {
+    @include flex-center;
+    justify-content: space-between;
+
+    .logo {
+      font-weight: bold;
+    }
+
+    button {
+      @include button-style($secondary);
+    }
+  }
+}

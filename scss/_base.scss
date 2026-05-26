@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: $light;
+  color: $dark;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+body.dark {
+  background: $dark;
+  color: $light;
+
+  .card {
+    background: #1f2937;
+  }
+}

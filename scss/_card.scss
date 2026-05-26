@@ -1,0 +1,16 @@
+@use 'variables' as *;
+
+.card {
+  background: white;
+  padding: $spacing;
+  border-radius: $radius;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    margin-top: 0;
+  }
+
+  p {
+    color: gray;
+  }
+}
